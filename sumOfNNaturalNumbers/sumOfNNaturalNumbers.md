@@ -13,3 +13,7 @@ so, we can say that
 so, we can say that 
 
 n(n + 1)/2
+
+using this formula the time complexity is O(1) and space compexity is O(1).
+the same problem solve using loop and recursion when we solve this problem using loop then the time complexity will be O(n) and space complexity will be O(1).
+But when we using recursion then the time complexity will be O(n) and the space complexity will be O(n).
