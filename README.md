@@ -1,4 +1,4 @@
-# Logic building - Deaily Problem Solving using C++
+# Logic building - Daily Problem Solving in C++
 This repository focuses on building strong problem-solving and logical thinking skills. We solve one problem daily, starting with basic mathematics and logic, and gradually progressing to more advanced concepts.
 
 The goal is consistency, clarity, and a deep understanding of each problem, followed by solving it using an optimized approach.
