@@ -27,6 +27,10 @@ Learning C++ builds a strong foundation that transfers well to other programming
 
    Method: Square Pyramidal Number Formula
 
+3. Swapping two numbers
+
+    Method: Using Arithematic Operator or Bitwise XOR 
+
 Each problem includes:
 
 - Clear logic
