@@ -1,27 +1,28 @@
-#include <iostream>
-#include <climits>
+#include<iostream>
+#include<climits>
 using namespace std;
+int FindClosestToNAndDivisibleByM(int n, int m){
+    if(m == 0){
+        cout<<"Divisor must be greater then 1!"<<endl;
+        return 0;
+    }else{
+        int quotient = n / m;
+        //Lower closest number
+        int LowerClosestNo = quotient * m;
 
-int closestNumber(int n, int m) {
-    int q = n / m;
-    
-    // 1st possible closest number
-    int n1 = m * q;
-    
-    // 2nd possible closest number
-    int n2 = (n * m) > 0 ? (m * (q + 1)) : (m * (q - 1));
-    
-    // if true, then n1 is the required closest number
-    if (abs(n - n1) < abs(n - n2))
-        return n1;
-    
-    // else n2 is the required closest number    
-    return n2;    
+        //Higher CLosest number 
+        int HigherClosestNo = (n * m) > 0 ? (m * (quotient + 1)) : (m * (quotient -1));
+        //if the condition is true then return the Lower Closest number
+        if(abs(n - LowerClosestNo)< abs(n - HigherClosestNo)) return LowerClosestNo;
+
+        //else Higher closest number
+        return HigherClosestNo;
+    }
 }
 
-int main() {
-    int n = 13, m = 4;
-    cout << closestNumber(n, m) << endl;
-    
+int main(){
+    int a = 29, b = -3;
+    int result = FindClosestToNAndDivisibleByM(a,b);
+    cout<<result;
     return 0;
 }
