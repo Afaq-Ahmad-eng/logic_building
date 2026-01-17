@@ -31,6 +31,14 @@ Learning C++ builds a strong foundation that transfers well to other programming
 
     Method: Using Arithematic Operator or Bitwise XOR 
 
+4. Find Closest to n and Divisible by m
+
+    Method: sign-aware integer-division method combined with absolute-difference comparison to greedily select the nearest divisible number in constant time.
+
+5. The Dice Problem
+
+    Method: This solution uses pattern recognition on a cubic dice and a direct arithmetic formula (opposite = 7 - n) to find the opposite face efficiently, with a simple input validation step.
+
 Each problem includes:
 
 - Clear logic
