@@ -39,6 +39,10 @@ Learning C++ builds a strong foundation that transfers well to other programming
 
     Method: This solution uses pattern recognition on a cubic dice and a direct arithmetic formula (opposite = 7 - n) to find the opposite face efficiently, with a simple input validation step.
 
+6. Nth term of Arthematic Progression from first two terms
+
+   Method: This problem is solved using a direct mathematical formula derived from the definition of arithmetic progression, making it a constant-time, formula-based solution.
+
 Each problem includes:
 
 - Clear logic
