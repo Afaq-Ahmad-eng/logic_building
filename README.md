@@ -43,6 +43,10 @@ Learning C++ builds a strong foundation that transfers well to other programming
 
    Method: This problem is solved using a direct mathematical formula derived from the definition of arithmetic progression, making it a constant-time, formula-based solution.
 
+7. Leap Year
+
+   Method: Using logical, comparison, and module operators and the formula is : ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)). And the "year" is a variable
+
 Each problem includes:
 
 - Clear logic
