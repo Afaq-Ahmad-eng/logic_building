@@ -1,6 +1,6 @@
 # Addition without using the + operator
 
-We solve this using while loop and the minus Arithmetic operartor *-*
+We solve this using while loop and the minus Arithmetic operartor **-**
 
 For loop:
 
