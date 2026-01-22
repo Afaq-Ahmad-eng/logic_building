@@ -45,12 +45,20 @@ Learning C++ builds a strong foundation that transfers well to other programming
 
 7. Leap Year
 
-   Method: Using logical, comparison, and module operators and the formula is : ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)). And the "year" is a variable
+   Method: Using logical, comparison, and module operators and the formula is : **((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)).** And the "year" is a variable
 
 8. Celsius to fahrenheit and vice versa
 
    Method: using formula's one is **F = (9/5 × C) + 32** and the second is **C = 5/9 × (F − 32)**
+
+9. Kilometers to meters and vice versa
+
+     Method: using Arithmetic Operators
    
+10. 10.AddwithoutArithmeticPlusOperators
+
+    Method: using while loop or Arithematic minus Operator
+
 Each problem includes:
 
 - Clear logic
