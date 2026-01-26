@@ -55,9 +55,13 @@ Learning C++ builds a strong foundation that transfers well to other programming
 
      Method: using Arithmetic Operators
    
-10. 10.AddwithoutArithmeticPlusOperators
+10. AddwithoutArithmeticPlusOperators
 
     Method: using while loop or Arithematic minus Operator
+
+11. Area of Rectangle
+
+    Method: length x width
 
 Each problem includes:
 
