@@ -21,48 +21,52 @@ Learning C++ builds a strong foundation that transfers well to other programming
 
 1. Sum of first n natural numbers
 
-   Method: Gauss Summation Formula
+    **Method:** Gauss Summation Formula
 
 2. Sum of squares of first n natural numbers
 
-   Method: Square Pyramidal Number Formula
+    **Method:** Square Pyramidal Number Formula
 
 3. Swapping two numbers
 
-    Method: Using Arithematic Operator or Bitwise XOR 
+    **Method:** Using Arithematic Operator or Bitwise XOR 
 
 4. Find Closest to n and Divisible by m
 
-    Method: sign-aware integer-division method combined with absolute-difference comparison to greedily select the nearest divisible number in constant time.
+    **Method:** sign-aware integer-division method combined with absolute-difference comparison to greedily select the nearest divisible number in constant time.
 
 5. The Dice Problem
 
-    Method: This solution uses pattern recognition on a cubic dice and a direct arithmetic formula (opposite = 7 - n) to find the opposite face efficiently, with a simple input validation step.
+    **Method:** This solution uses pattern recognition on a cubic dice and a direct arithmetic formula (opposite = 7 - n) to find the opposite face efficiently, with a simple input validation step.
 
 6. Nth term of Arthematic Progression from first two terms
 
-   Method: This problem is solved using a direct mathematical formula derived from the definition of arithmetic progression, making it a constant-time, formula-based solution.
+    **Method:** This problem is solved using a direct mathematical formula derived from the definition of arithmetic progression, making it a constant-time, formula-based solution.
 
 7. Leap Year
 
-   Method: Using logical, comparison, and module operators and the formula is : **((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)).** And the "year" is a variable
+    **Method:** Using logical, comparison, and module operators and the formula is : **((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)).** And the "year" is a variable
 
 8. Celsius to fahrenheit and vice versa
 
-   Method: using formula's one is **F = (9/5 × C) + 32** and the second is **C = 5/9 × (F − 32)**
+    **Method:** using formula's one is **F = (9/5 × C) + 32** and the second is **C = 5/9 × (F − 32)**
 
 9. Kilometers to meters and vice versa
 
-     Method: using Arithmetic Operators
+    **Method:** using Arithmetic Operators
    
 10. AddwithoutArithmeticPlusOperators
 
-    Method: using while loop or Arithematic minus Operator
+    **Method:** using while loop or Arithematic minus Operator
 
 11. Area of Rectangle
 
-    Method: length x width
+    **Method:** length x width
 
+12. Sum of main and secondary diagonal of the 4 by 4 2-D Array
+
+    **Method:** Determine the positions of the elements, and then use these positions directly in the summation.
+     
 Each problem includes:
 
 - Clear logic
